@@ -5,7 +5,7 @@ import moduleGetters from '../getters/module'
 import moduleMutations from '../mutations/module'
 import moduleActions from '../actions/module'
 
-const chatter: Module<ModuleState, RootState> = {
+const module: Module<ModuleState, RootState> = {
   namespaced: true,
   state: {
     foo: false,
